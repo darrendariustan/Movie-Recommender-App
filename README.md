@@ -2,8 +2,11 @@
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Render-brightgreen?style=for-the-badge)](https://movie-recommender-app-yujk.onrender.com/)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.45+-red?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19+-orange?style=for-the-badge&logo=tensorflow)](https://tensorflow.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.45.1-red?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19.0-orange?style=for-the-badge&logo=tensorflow)](https://tensorflow.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.0-blue?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-1.55.3-green?style=for-the-badge&logo=openai)](https://openai.com/)
+[![pandas](https://img.shields.io/badge/pandas-2.3.0-purple?style=for-the-badge&logo=pandas)](https://pandas.pydata.org/)
 
 An intelligent hybrid movie recommendation system that automatically combines **SVD (Singular Value Decomposition)** and **Neural Network** collaborative filtering approaches with advanced **cosine similarity** for personalized movie discovery.
 
