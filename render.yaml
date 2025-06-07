@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: movie-recommender-app
+    env: python
+    plan: free
+    # Use Python 3.11 for compatibility
+    runtime: python-3.11.9
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: STREAMLIT_SERVER_PORT
+        value: 10000
+      - key: STREAMLIT_SERVER_ADDRESS
+        value: 0.0.0.0 
