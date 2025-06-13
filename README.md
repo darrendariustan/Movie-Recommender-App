@@ -91,11 +91,15 @@ MovieRecommender/
 ├── helper_functions.py       # Hybrid models, cosine similarity, user analysis
 ├── llm_recommender.py        # OpenAI-powered LLM recommendations
 ├── requirements.txt          # Python dependencies
-├── render.yaml              # Render deployment configuration
-├── startup.sh               # Render startup script
-├── svd_model.pkl            # Trained SVD model
-├── neural_model.pkl         # Neural network metadata
-├── neural_model.keras       # Trained neural network
+├── Dockerfile                # Docker build instructions for reproducible environment
+├── .dockerignore             # Files/folders to exclude from Docker build context
+├── Procfile                  # Process type declaration for deployment (optional for Render)
+├── render.yaml               # Render deployment configuration
+├── setup.sh                  # Custom setup script (e.g., config, data prep)
+├── startup.sh                # Render startup script (if needed)
+├── svd_model.pkl             # Trained SVD model
+├── neural_model.pkl          # Neural network metadata
+├── neural_model.keras        # Trained neural network
 ├── dataset/
 │   ├── movies.csv           # Movie metadata (9,742 movies)
 │   ├── ratings.csv          # User ratings data (610 users)
